@@ -44,6 +44,12 @@ func Raid1a(x, y int) {
 		return
 	} else {
 		z01.PrintRune('o')
+		for i := 1; i < x-1; i++ {
+			z01.PrintRune('-') // 3 dash iz 5
+		}
+		z01.PrintRune('o')
+		z01.PrintRune('\n')
+
 		for t := 1; t < y-1; t++ { //stolko raz skolko y - 2
 			z01.PrintRune('|')
 
