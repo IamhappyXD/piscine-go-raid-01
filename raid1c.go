@@ -4,10 +4,6 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main() {
-	Raid1c(5, 1)
-}
-
 func Raid1c(x, y int) {
 
 	if x > 0 && y > 0 {
