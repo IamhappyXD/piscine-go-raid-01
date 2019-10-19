@@ -4,10 +4,6 @@ import (
 	"github.com/01-edu/z01"
 )
 
-//func main() {
-//	Raid1e(1, 5)
-//}
-
 func Raid1e(x, y int) {
 	if x <= 0 || y <= 0 {
 		return
