@@ -17,6 +17,13 @@ func Raid1a(x, y int) {
 		z01.PrintRune('o')
 		z01.PrintRune('o')
 		z01.PrintRune('\n')
+		z01.PrintRune('o')
+		z01.PrintRune('o')
+		z01.PrintRune('\n')
+		z01.PrintRune('o')
+		z01.PrintRune('o')
+		z01.PrintRune('\n')
+		return
 	}
 	if x == 1 && y == 1 {
 		z01.PrintRune('o')
