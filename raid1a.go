@@ -6,8 +6,8 @@ import (
 
 func Raid1a(x, y int) {
 
-	if x > 0 && y > 0{
-	
+	if x > 0 && y > 0 {
+
 		if x == 1 && y == 1 {
 			z01.PrintRune('o')
 			z01.PrintRune('\n')
